@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="keywords" content="FinTech Consultant, Payment Consultant India,PSP Integration Consultant, Merchant Acquiring Expert, Payment Aggregation Consultant, Digital Payment Solutions, Payment Processing Consultant, Banking Alliance Consultant,FinTech Advisory Services">
+
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2830/2830284.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<meta name="description" content="FinTech Consulting By Somvhir provides strategic payment consulting, PSP integrations, merchant acquiring, payment aggregation, fintech advisory, and banking alliance solutions across India and Middle East.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payments & FinTech Advisory by Somvhir</title>
+
+<style>
+
+.whatsapp-float{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+z-index:1000;
+transition:0.3s;
+}
+
+.whatsapp-float:hover{
+transform:scale(1.1);
+}
+
+.navbar{
+position:sticky;
+top:0;
+z-index:1000;
+background:#0f172a;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+backdrop-filter:blur(12px);
+background:rgba(15,23,42,0.92);
+}
+
+.logo{
+color:white;
+font-size:22px;
+font-weight:bold;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+transition:0.3s;
+font-weight:500;
+font-size:15px;
+letter-spacing:0.3px;
+}
+
+.nav-links a:hover{
+color:#38bdf8; text-shadow:0 0 10px rgba(56,189,248,0.8);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;;
+}
+
+body{
+background:
+linear-gradient(
+180deg,
+#f8fafc,
+#eef2f7,
+#f8fafc
+);
+color:#222;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    padding:65px 20px 80px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+}
+
+header::before{
+content:"";
+position:absolute;
+width:400px;
+height:400px;
+background:rgba(56,189,248,0.08);
+border-radius:50%;
+top:-120px;
+right:-100px;
+}
+
+header::after{
+content:"";
+position:absolute;
+width:300px;
+height:300px;
+background:rgba(255,255,255,0.04);
+border-radius:50%;
+bottom:-100px;
+left:-80px;
+}
+
+header h1{
+    font-size:56px;
+    margin-bottom:20px;
+}
+
+header p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+    color:#d1d5db;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:15px 30px;
+background:linear-gradient(135deg,#38bdf8,#0ea5e9);
+color:white;text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+transition:0.3s;
+box-shadow:0 0 15px rgba(56,189,248,0.25);
+}
+
+.btn:hover{
+background:linear-gradient(135deg,#0ea5e9,#0284c7);
+color:white;
+transform:scale(1.05);
+box-shadow:0 0 25px rgba(56,189,248,0.5);
+}
+
+
+/* GENERAL */
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.section-title h2{
+    font-size:42px;
+    color:#0f172a;
+}
+
+.section-title p{
+    margin-top:12px;
+    color:#555;
+}
+
+/* ABOUT */
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    gap:45px;
+    align-items:center;
+}
+
+.about-text{
+    flex:1;
+    min-width:300px;
+}
+
+.about-text p{
+    margin-bottom:18px;
+    color:#444;
+}
+
+.about-boxes{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.box{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.4s;
+    cursor:pointer;
+    border:2px solid transparent;
+}
+
+.box:hover{
+    transform:translateY(-10px) scale(1.05);
+    background:#0f172a;
+    color:white;
+    border:2px solid #38bdf8;
+}
+
+.box:hover h3{
+    color:#38bdf8;
+}
+
+.box:hover{
+    transform:translateY(-8px);
+}
+
+.box h3{
+    font-size:42px;
+    color:#0f172a;
+}
+
+/* SERVICES */
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:28px;
+}
+
+.service-card{
+    background:white;
+    padding:32px;
+    border-radius:22px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.4s;
+    text-decoration:none;
+    color:#222;
+    border:2px solid transparent;
+}
+
+.service-card:hover{
+    transform:translateY(-10px) scale(1.03);
+    background:#0f172a;
+    color:white;
+    border:2px solid #38bdf8;
+}
+
+.service-card h3{
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+/* DOMAINS */
+
+.domains{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+    justify-content:center;
+}
+
+.domain{
+    background:white;
+    padding:15px 24px;
+    border-radius:50px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    transition:0.3s;
+    cursor:pointer;
+    font-weight:bold;
+    text-decoration:none;
+    color:#0f172a;
+    border:2px solid transparent;
+}
+
+.domain:hover{
+background:#0f172a;
+color:white;
+transform:scale(1.08);
+border:2px solid #38bdf8;
+box-shadow:0 0 20px rgba(56,189,248,0.4);
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.testimonial{
+    background:white;
+    padding:35px;
+    border-radius:22px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.4s;
+    cursor:pointer;
+    border:2px solid transparent;
+    position:relative;
+    overflow:hidden;
+}
+
+.testimonial:hover{
+    transform:translateY(-10px) scale(1.03);
+    background:#0f172a;
+    color:white;
+    border:2px solid #38bdf8;
+}
+
+.testimonial:hover p{
+    color:white;
+}
+
+.testimonial::before{
+    content:"★★★★★";
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size:18px;
+    color:#38bdf8;
+    opacity:0.8;
+}
+
+.testimonial:hover{
+    transform:translateY(-8px);
+}
+
+.testimonial p{
+    color:#444;
+}
+
+/* CONTACT */
+
+.contact{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    border-radius:35px;
+    padding:70px 25px;
+}
+
+.contact h2{
+    font-size:44px;
+    margin-bottom:22px;
+}
+
+.contact p{
+    max-width:850px;
+    margin:auto;
+    color:#d1d5db;
+}
+
+.contact-info{
+    margin-top:35px;
+}
+
+.contact-info div{
+    margin:14px 0;
+    font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:35px;
+    color:#666;
+background:linear-gradient(135deg,#020617,#0f172a);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:40px;
+    }
+
+    .section-title h2{
+        font-size:34px;
+    }
+
+    .contact h2{
+        font-size:34px;
+    }
+
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+section{
+padding:80px 10%;
+}
+
+header img{
+transition:0.4s;
+}
+
+header img:hover{
+transform:scale(1.03);
+box-shadow:0 15px 40px rgba(56,189,248,0.35);
+}
+
+.section-divider{
+width:120px;
+height:4px;
+background:linear-gradient(to right,#38bdf8,#0ea5e9);
+margin:18px auto 0;
+border-radius:50px;
+}
+
+.profile-photo{
+animation:glow 3s infinite alternate;
+}
+
+@keyframes glow{
+from{
+box-shadow:0 0 20px rgba(56,189,248,0.2);
+}
+to{
+box-shadow:0 0 35px rgba(56,189,248,0.5);
+}
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</style>
+</head>
+
+<body>
+<nav class="navbar">
+
+<a href="https://wa.me/919860858059?text=Hello%20Somvhir,%20I%20would%20like%20to%20schedule%20a%20consultation."
+target="_blank"
+style="
+background:#38bdf8;
+padding:10px 18px;
+border-radius:10px;
+color:white;
+">
+Book Consultation
+</a>
+
+<div class="logo">
+Payments & FinTech Advisory
+<span style="color:#38bdf8;">by Somvhir</span></div>
+
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#industries">Industries</a>
+<a href="#contact">Contact</a>
+
+<a href="https://www.linkedin.com/in/somvhir-singh-bhadouriya/" target="_blank">
+   <i class="fab fa-linkedin"></i> LinkedIn
+</a>
+
+</div>
+
+</nav>
+
+<div style="
+background:#38bdf8;
+text-align:center;
+padding:12px;
+font-weight:600;
+">
+
+<a href="https://www.linkedin.com/in/somvhir-singh-bhadouriya/"target="_blank" style="color:white;text-decoration:none;font-size:16px;">
+🔗 Connect with Somvhir Singh on LinkedIn
+</a>
+
+</div>
+
+<!-- HEADER -->
+
+<header>
+
+<div style="
+position:relative;
+display:inline-block;
+margin-top:45px;
+">
+
+<img
+src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1400&auto=format&fit=crop"
+style="
+width:100%;
+max-width:950px;
+border-radius:24px;
+box-shadow:0 12px 35px rgba(0,0,0,0.35);
+object-fit:cover;
+filter:brightness(0.78);
+">
+
+</div>
+
+<br>
+
+<img class="profile-photo" src="somvhir.jpeg" alt="Somvhir Singh Bhadouriya" style=" width:180px;height:180px;object-fit:cover;border-radius:50%;border:5px solid rgba(255,255,255,0.15);margin-top:35px;box-shadow:0 10px 30px rgba(0,0,0,0.35);">
+
+<p style="
+margin-top:20px;
+font-size:22px;
+font-weight:600;
+color:#38bdf8;
+">
+Principal Consultant – Payments & FinTech Advisory
+</p>
+    <h1>Payments & FinTech Advisory by Somvhir</h1>
+
+<p style="
+font-size:15px;
+letter-spacing:1px;
+text-transform:uppercase;
+color:#38bdf8;
+margin-top:-8px;
+margin-bottom:18px;
+font-weight:600;
+">
+Payment Consulting • PSP Alliances • Merchant Acquiring • FinTech Advisory
+</p>
+
+<p style="
+margin-top:15px;
+font-size:18px;
+color:#cbd5e1;
+">
+Strategic Payment Ecosystem Advisory Across India & Middle East
+</p>
+
+<p>
+    Empowering Businesses Through Scalable Payment Infrastructure, PSP Integrations, and Strategic FinTech Advisory Solutions
+</p>
+
+<div style="margin-top:35px;">
+
+<a class="btn"
+href="#services">
+Explore Services
+</a>
+
+</div>
+    
+</header>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <div class="section-title">
+        <h2>About the Consultant</h2>
+        <p>22+ Years of Experience in FinTech & Payment Solutions</p>
+    </div>
+
+    <div class="about">
+
+        <div class="about-text">
+
+            <p>
+Somvhir Singh Bhadouriya is a seasoned FinTech and Payment Consulting Professional with more than 22 years of experience across payment ecosystems, merchant acquiring, PSP integrations, digital transaction processing, and strategic business advisory.
+</p>
+
+<p>
+He has worked extensively with fintech companies, payment aggregators, banks, e-commerce platforms, retail businesses, and transaction solution providers across India and the Middle East.
+</p>
+
+<p>
+His expertise includes payment architecture consulting, business profitability optimization, payment infrastructure scaling, banking alliances, fintech product advisory, and operational strategy for modern digital payment ecosystems.
+</p>
+
+<p>
+With deep industry exposure and business-focused execution, he helps organizations build scalable, secure, and efficient payment solutions aligned with evolving market and regulatory requirements.
+</p>
+
+        </div>
+
+        <div class="about-boxes">
+
+            <div class="box">
+                <h3>22+</h3>
+                <p>Years Experience</p>
+            </div>
+
+            <div class="box">
+                <h3>50+</h3>
+                <p>Companies Consulted</p>
+            </div>
+
+            <div class="box">
+                <h3>13</h3>
+                <p>Countries Supported</p>
+            </div>
+
+            <div class="box">
+                <h3>2</h3>
+                <p>India & Middle East</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services" style="background:#eef2f7;">
+
+    <div class="section-title">
+        <h2>Services Offered</h2>
+        <p>Interactive Consulting Solutions for FinTech & Payments Ecosystems</p>
+    </div>
+
+    <div class="services">
+
+        <a href="payment-consulting.html" class="service-card">
+            <h3>💳 Payment Consulting</h3>
+            <p>
+                Strategic consulting for payment ecosystems, merchant acquiring, PSP integrations, and payment infrastructure optimization.
+            </p>
+        </a>
+
+        <a href="payment-aggregation.html" class="service-card">
+            <h3>💰 Payment Aggregation & Processing</h3>
+            <p>
+                End-to-end support for payment aggregation models, onboarding flows, and transaction processing optimization.
+            </p>
+        </a>
+
+        <a href="business-advisory.html" class="service-card">
+            <h3>📈 Business Advisory</h3>
+            <p>
+                Business strategy consulting focused on revenue growth, profitability, ARPU enhancement, and operational efficiency.
+            </p>
+        </a>
+
+        <a href="banking-alliances.html" class="service-card">
+            <h3>🏦 Banking & PSP Alliances</h3>
+            <p>
+                Building and managing strategic relationships with banks, fintech companies, aggregators, and PSPs.
+            </p>
+        </a>
+
+        <a href="market-strategy.html" class="service-card">
+            <h3>📊 Product & Market Strategy</h3>
+            <p>
+                Support for fintech product planning, market expansion, go-to-market strategies, and payment product enhancement.
+            </p>
+        </a>
+
+        <a href="compliance-architecture.html" class="service-card">
+            <h3>🔒 Compliance & Architecture</h3>
+            <p>
+                Guidance on payment architecture, scalable fintech solutions, compliance frameworks, and regulatory support.
+            </p>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- INDUSTRIES -->
+
+<section id="industries">
+
+<section style="background:#eef2f7;">
+
+<div class="section-title">
+<h2>Industry Expertise & Domain Specialization</h2>
+<p>
+Comprehensive Experience Across FinTech, Banking, Digital Payments, and Transaction Ecosystems
+</p>
+</div>
+
+<div class="domains">
+
+<div class="domain">✓ Payment Aggregators</div>
+
+<div class="domain">✓ PSP Ecosystems</div>
+
+<div class="domain">✓ Merchant Acquiring</div>
+
+<div class="domain">✓ Retail Payments</div>
+
+<div class="domain">✓ E-Commerce Transactions</div>
+
+<div class="domain">✓ Banking Alliances</div>
+
+<div class="domain">✓ Mobile POS Solutions</div>
+
+<div class="domain">✓ FinTech Operations</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<section style="padding-top:20px;">
+
+<div class="section-title">
+<h2>Industry Exposure</h2>
+<div class="section-divider"></div>
+<p>Experience Across Leading Payment Ecosystems</p>
+</div>
+
+<div class="domains">
+
+<div class="domain">FinTech</div>
+<div class="domain">Banking</div>
+<div class="domain">E-Commerce</div>
+<div class="domain">Retail Payments</div>
+<div class="domain">Merchant Acquiring</div>
+<div class="domain">PSP Ecosystems</div>
+
+</div>
+
+</section>
+<h2>Why Choose Us</h2>
+<p>Strategic Expertise Backed by Industry Experience</p>
+</div>
+
+<div class="services">
+
+<div class="service-card">
+<h3>⭐ 22+ Years Experience</h3>
+<p>
+Extensive experience across payment ecosystems, fintech operations, merchant acquiring, and banking alliances.
+</p>
+</div>
+
+<div class="service-card">
+<h3>🌍 Global Market Exposure</h3>
+<p>
+Professional exposure across India and Middle East payment and fintech markets.
+</p>
+</div>
+
+<div class="service-card">
+<h3>📈 Business-Focused Approach</h3>
+<p>
+Focused on revenue optimization, scalable payment systems, and operational efficiency.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="background:#eef2f7;">
+
+<div class="section-title">
+<h2>Recent Consulting Focus Areas</h2>
+<p>Key Strategic Payment & FinTech Advisory Areas</p>
+</div>
+
+<div class="domains">
+
+<div class="domain">✓ Payment Cost Optimization</div>
+
+<div class="domain">✓ PSP Onboarding</div>
+
+<div class="domain">✓ Merchant Acquiring</div>
+
+<div class="domain">✓ Payment Architecture</div>
+
+<div class="domain">✓ FinTech Product Strategy</div>
+
+<div class="domain">✓ Revenue Optimization</div>
+
+<div class="domain">✓ Banking Alliances</div>
+
+<div class="domain">✓ Transaction Scalability</div>
+
+</div>
+
+</section>
+
+    <div class="section-title">
+        <h2>Industries & Domains</h2>
+        <p>Explore Expertise Across Multiple Payment Ecosystems</p>
+    </div>
+
+    <div class="domains">
+
+        <a href="fintech.html" class="domain">FinTech</a>
+
+        <a href="merchant-acquiring.html" class="domain">
+            Merchant Acquiring
+        </a>
+
+        <a href="payment-processing.html" class="domain">
+            Payment Processing
+        </a>
+
+        <a href="ecommerce.html" class="domain">
+            E-Commerce
+        </a>
+
+        <a href="retail.html" class="domain">
+            Retail
+        </a>
+
+        <a href="digital-payments.html" class="domain">
+            Digital Payments
+        </a>
+
+        <a href="mobile-pos.html" class="domain">
+            Mobile POS
+        </a>
+
+        <a href="banking-solutions.html" class="domain">
+            Banking Solutions
+        </a>
+
+        <a href="psp-integration.html" class="domain">
+            PSP Integration
+        </a>
+
+        <a href="transaction-solutions.html" class="domain">
+            Transaction Solutions
+        </a>
+
+    </div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section style="background:#eef2f7;">
+
+    <div class="section-title">
+        <h2>Industry Reputation & Expertise</h2>
+    </div>
+
+    <div class="testimonials">
+
+        <div class="testimonial">
+            <p>
+                “Strategic payment consulting with deep industry understanding and strong execution capabilities across banking and fintech ecosystems.”
+            </p>
+        </div>
+
+        <div class="testimonial">
+            <p>
+                “Exceptional expertise in payment aggregation, merchant acquiring, and operational optimization for scalable business growth.”
+            </p>
+        </div>
+
+        <div class="testimonial">
+            <p>
+                “A highly experienced consultant with practical insights into PSP integrations, payment processing, and business strategy.”
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <div class="contact">
+
+        <h2>Looking for a Payment & FinTech Consultant?</h2>
+
+        <p>
+            From payment architecture and PSP onboarding to business strategy and operational optimization, get consulting support tailored for modern payment ecosystems.
+        </p>
+
+        <div class="contact-info">
+
+            <div>
+		📧 <a href="mailto:somvhir@paymentconsultant.in"
+		style="color:#38bdf8;text-decoration:none;">
+		somvhir@paymentconsultant.in
+		</a>
+	</div>
+           <div>
+	📞 <a href="tel:+919860858059"
+	style="color:#38bdf8; text-decoration:none;">
+	+91 9860858059
+	</a>
+	</div>
+
+            <div>
+		🔗 <a href="https://www.linkedin.com/in/somvhir-singh-bhadouriya/" target="_blank" style="color:#38bdf8;text-decoration:none;">
+		https://www.linkedin.com/in/somvhir-singh-bhadouriya/
+		</a>
+	</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section style="
+background:#0f172a;
+padding:70px 10%;
+text-align:center;
+color:white;
+border-radius:30px;
+margin:50px 10%;
+">
+
+<h2 style="font-size:42px;">
+Ready to Optimize Your Payment Ecosystem?
+</h2>
+
+<p style="
+margin-top:20px;
+color:#cbd5e1;
+font-size:18px;
+">
+Connect for strategic fintech consulting and payment advisory solutions.
+</p>
+
+<a class="btn"
+href="https://wa.me/919860858059?text=Hello%20Somvhir,%20I%20would%20like%20to%20connect%20for%20a%20strategic%20consultation%20regarding%20payment%20solutions%20and%20fintech%20services."
+target="_blank"
+style="margin-top:30px;">
+Schedule Strategic Consultation
+</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer
+style="background:#0f172a;
+color:white;
+padding:50px 10%;
+margin-top:40px;">
+
+<div style="display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+gap:30px;">
+
+<div>
+<h3>Payments & FinTech Advisory by Somvhir</h3>
+<p style="margin-top:10px;color:#d1d5db;">
+Strategic Payment & FinTech Advisory Solutions
+</p>
+</div>
+
+<div>
+<h4>Quick Links</h4>
+
+<p><a href="#about"
+style="color:#38bdf8;text-decoration:none;">About</a></p>
+
+<p><a href="#services"
+style="color:#38bdf8;text-decoration:none;">Services</a></p>
+
+<p><a href="#industries"
+style="color:#38bdf8;text-decoration:none;">Industries</a></p>
+</div>
+
+<div>
+<h4>Contact</h4>
+
+<p>
+<a href="mailto:somvhir@paymentconsultant.in"
+style="color:#38bdf8;text-decoration:none;">
+Email
+</a>
+</p>
+
+<p>
+<a href="tel:+919860858059"
+style="color:#38bdf8;text-decoration:none;">
+Call
+</a>
+</p>
+
+<p>
+<a href="https://wa.me/919860858059"
+target="_blank"
+style="color:#38bdf8;text-decoration:none;">
+WhatsApp
+</a>
+</p>
+
+</div>
+
+</div>
+
+<hr style="margin:30px 0;
+border-color:#334155;">
+
+<p style="text-align:center;color:#94a3b8;">
+© 2026 Payments & FinTech Advisory by Somvhir. All Rights Reserved.
+</p>
+
+</footer>
+
+<a href="https://wa.me/919860858059"
+target="_blank"
+class="whatsapp-float">
+💬
+</a>
+
+<script>
+
+const cards = document.querySelectorAll(
+'.service-card, .box, .testimonial, .domain'
+);
+
+cards.forEach((card,index)=>{
+
+card.style.opacity="0";
+card.style.transform="translateY(40px)";
+
+setTimeout(()=>{
+
+card.style.transition="0.6s";
+card.style.opacity="1";
+card.style.transform="translateY(0px)";
+
+}, index * 150);
+
+});
+
+</script>
+
+</body>
+</html>
